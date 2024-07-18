@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@layer base {
+  html {
+    font-family: "Marcellus", Open-Sans, system-ui, sans-serif;
+  }
+}
+
+.menu-mb .active {
+  transform: translateX(100%);
+}
