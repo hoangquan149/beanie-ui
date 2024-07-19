@@ -9,6 +9,7 @@ export default {
     extend: {
       colors: {
         primary: "#362C27",
+        yellow: "#C2996F",
       },
     },
   },

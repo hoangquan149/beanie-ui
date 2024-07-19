@@ -11,7 +11,7 @@ const SliderCommon = ({ children, totalItem, title = "shop Best coffee" }) => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-
+    swipeToSlide: true,
     beforeChange: (_, next) => setCurrentSlide(next + 1),
     responsive: [
       {
@@ -54,7 +54,7 @@ const SliderCommon = ({ children, totalItem, title = "shop Best coffee" }) => {
   );
 
   return (
-    <div className="slider-container px-4 overflow-hidden lg:px-0">
+    <div className="slider-container px-4 overflow-hidden xl:px-0">
       <div className="flex justify-between items-center mb-[20px]">
         <Title className="">{title}</Title>
         <div className="flex items-center gap-3">

@@ -34,14 +34,14 @@ const images = [
 
 const Social = () => {
   return (
-    <div className="mt-[50px] lg:mt-[200px] px-4 lg:px-[76px]">
+    <div className="mt-[50px] xl:mt-[200px] px-4 xl:px-[76px]">
       <h5 className="text-[34px] text-primary text-center uppercase leading-[42px]">
         Follow our INstagram #Beanie
       </h5>
-      <div className="grid grid-cols-2 lg:grid-cols-6 gap-5 mt-5">
+      <div className="grid grid-cols-2 xl:grid-cols-6 md:grid-cols-3 gap-5 mt-5">
         {images.map((image, index) => (
           <a key={index} href={image.link}>
-            <img src={image.image} className="lg:size-[278px]" alt="" />
+            <img src={image.image} className="xl:size-[278px]" alt="" />
           </a>
         ))}
       </div>

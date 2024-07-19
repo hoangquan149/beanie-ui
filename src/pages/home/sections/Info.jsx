@@ -32,10 +32,10 @@ const data = [
 
 const Info = () => {
   return (
-    <div className="py-[40px] px-[76px]  border-y border-primary">
-      <div className="flex flex-wrap justify-center gap-5 lg:gap-3 md:justify-between w-full">
+    <div className="py-[40px] px-5 xl:px-[76px]  border-y border-primary">
+      <div className="grid grid-cols-1 md:justify-center md:grid-cols-2 xl:grid-cols-4 gap-5 xl:gap-3 w-full">
         {data.map((item, index) => (
-          <div key={index} className="w-[322px] text-center">
+          <div key={index} className="w-[322px] m-auto md:m-0 text-center">
             <img
               src={item.image}
               className="mb-[14px] w-[54px] h-[50px] mx-auto"

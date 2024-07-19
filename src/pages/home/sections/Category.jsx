@@ -37,7 +37,7 @@ const Category = () => {
   return (
     <div>
       {/* device mobile , tablet */}
-      <div className="px-4 lg:hidden md:hidden">
+      <div className="px-4 xl:hidden md:hidden">
         <Title className="mb-3">Shop Category</Title>
         <div className="grid grid-cols-2 gap-3 ">
           {categories.map((category, index) => (
@@ -46,7 +46,7 @@ const Category = () => {
         </div>
       </div>
       {/* web */}
-      <div className="lg:grid grid-cols-2 px-[76px] hidden">
+      <div className="xl:grid grid-cols-2 px-[76px] hidden">
         <div className="flex flex-1">
           <img className="w-[447px] flex-1" src={Product4} alt="" />
           <div className="p-[15px]">

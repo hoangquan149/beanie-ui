@@ -61,20 +61,20 @@ const Navbar = () => {
         </div>
       </div>
 
-      <header className="lg:hidden px-4 py-2 flex items-center justify-between">
+      <header className="xl:hidden px-4 py-2 flex items-center justify-between">
         <i className="fa-solid fa-bars text-2xl" onClick={openMenu}></i>
-        <img src={Logo} className="w-[60px] lg:w-[80px] object-cover" alt="" />
+        <img src={Logo} className="w-[60px] xl:w-[80px] object-cover" alt="" />
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-x-2">
             <img className="w-6 h-6 aspect-square" src={Shopping} alt="" />
           </div>
         </div>
       </header>
-      <header className="lg:px-[76px] mt-4 items-center hidden lg:flex">
+      <header className="xl:px-[76px] mt-4 items-center hidden xl:flex">
         <div className="flex-1 h-[80px] flex items-center border-b border-t border-primary">
           <ul className="flex space-x-[50px]">
             {menuItems.map((item, index) => (
-              <li className={`uppercase hover:text-[#C2996F] `} key={index}>
+              <li className={`uppercase hover:text-yellow `} key={index}>
                 {item?.title}
               </li>
             ))}

@@ -4,18 +4,18 @@ import BannerImage4 from "../../../images/banner4.png";
 
 const Contact = () => {
   return (
-    <div className="relative flex justify-center px-4 sm:px-0 items-center lg:text-center py-[50px] lg:py-[200px]">
+    <div className="relative flex justify-center px-4 sm:px-0 items-center xl:text-center py-[50px] xl:py-[200px]">
       <img
         src={BannerImage3}
         alt=""
-        className="absolute left-0 top-0 hidden lg:block w-[260px]"
+        className="absolute left-0 top-0 hidden xl:block w-[260px]"
       />
       <div className=" md:w-[520px] xl:w-[1164px] font-light text-lg md:text-2xl xl:text-[38px] text-primary md:leading-9 xl:leading-[68px] ">
         <Title>Subscribe us</Title>
         <p className="text-primary text-base mt-5">
           Subscribe to our newsletter for discount codes and updates.
         </p>
-        <div className="flex items-center relative w-full max-w-[740px] lg:w-2/3 mt-4 lg:mt-10 mx-auto">
+        <div className="flex items-center relative w-full max-w-[740px] xl:w-2/3 mt-4 xl:mt-10 mx-auto">
           <input
             type="text"
             className="border border-[#D2CFCC] w-full text-primary text-sm rounded-full h-12 pl-4 placeholder:text-gray-700 placeholder:italic focus:outline-none "
@@ -25,7 +25,7 @@ const Contact = () => {
             Subscribe
           </button>
         </div>
-        <div className="mt-4 lg:mt-10 flex gap-6 justify-center text-primary items-center">
+        <div className="mt-4 xl:mt-10 flex gap-6 justify-center text-primary items-center">
           <svg
             width="13"
             height="23"
@@ -87,7 +87,7 @@ const Contact = () => {
       <img
         src={BannerImage4}
         alt=""
-        className="absolute right-0 top-[50px] md:top-[80px] lg:top-[120px] xl:top-[150px] hidden lg:block w-[260px]"
+        className="absolute right-0 top-[50px] md:top-[80px] xl:top-[120px] xl:top-[150px] hidden xl:block w-[260px]"
       />
     </div>
   );

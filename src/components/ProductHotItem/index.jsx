@@ -8,7 +8,7 @@ const ProductHotItem = ({ product }) => {
         <img
           src={product?.image}
           alt=""
-          className="rounded-full w-[80px] h-[80px] lg:w-[90px] lg:h-[90px]"
+          className="rounded-full w-[80px] h-[80px] xl:w-[90px] xl:h-[90px]"
         />
         <div className="flex-1 flex flex-col gap-y-2">
           <div className="flex">

@@ -21,8 +21,8 @@ const Feedback = () => {
   };
 
   return (
-    <div className="relative  py-[50px] lg:py-[200px] justify-center mt-4 mx-4 lg:m-0 items-center text-center overflow-hidden">
-      <div className="hidden lg:block">
+    <div className="relative  py-[50px] xl:py-[200px] justify-center mt-4 mx-4 xl:m-0 items-center text-center overflow-hidden">
+      <div className="hidden xl:block">
         <button
           className={`size-[99px] border rounded-full absolute left-[76px] -translate-y-1/2 top-1/2 z-10  ${
             currentSlide <= 1
@@ -44,7 +44,7 @@ const Feedback = () => {
           <i className="fa-light fa-angle-right text-[30px]"></i>
         </button>
       </div>
-      <div className="lg:w-[1164px] mx-auto">
+      <div className="xl:w-[1164px] mx-auto">
         <Slider
           ref={(slider) => {
             sliderRef.current = slider;
