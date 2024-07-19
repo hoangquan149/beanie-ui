@@ -34,7 +34,7 @@ const images = [
 
 const Social = () => {
   return (
-    <div className="mt-[100px] lg:mt-[200px] px-4 lg:px-[76px]">
+    <div className="mt-[50px] lg:mt-[200px] px-4 lg:px-[76px]">
       <h5 className="text-[34px] text-primary text-center uppercase leading-[42px]">
         Follow our INstagram #Beanie
       </h5>

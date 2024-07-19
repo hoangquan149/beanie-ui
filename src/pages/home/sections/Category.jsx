@@ -46,7 +46,7 @@ const Category = () => {
         </div>
       </div>
       {/* web */}
-      <div className="lg:grid grid-cols-2 px-[34px] hidden">
+      <div className="lg:grid grid-cols-2 px-[76px] hidden">
         <div className="flex flex-1">
           <img className="w-[447px] flex-1" src={Product4} alt="" />
           <div className="p-[15px]">

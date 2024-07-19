@@ -7,7 +7,7 @@ import BannerImage4 from "../../../images/banner4.png";
 const Banner = () => {
   return (
     <div>
-      <div className="flex flex-col px-4 mt-5 lg:flex-row lg:px-[34px] lg:mt-[64px] ">
+      <div className="flex flex-col px-4 mt-5 lg:flex-row lg:px-[76px] lg:mt-[64px] ">
         <div className="sm:flex-1 h-fit">
           <img
             src={BannerImage}
@@ -32,7 +32,7 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="relative flex justify-center px-4 sm:px-0 items-center text-center py-[100px] lg:py-[200px]">
+      <div className="relative flex justify-center px-4 sm:px-0 items-center text-center py-[50px] lg:py-[200px]">
         <img
           src={BannerImage3}
           alt=""

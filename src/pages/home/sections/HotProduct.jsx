@@ -78,7 +78,7 @@ const blocks = [
 
 const HotProduct = () => {
   return (
-    <div className="mt-[80px] lg:mt-[200px] px-4 grid grid-cols-1 lg:gap-[140px] lg:grid-cols-2 md:grid-cols-2 gap-y-4">
+    <div className="mt-[80px] lg:mt-[200px] lg:px-[76px] grid grid-cols-1 lg:gap-[140px] lg:grid-cols-2 md:grid-cols-2 px-4 gap-y-4">
       {blocks.map(({ title, products }, index) => (
         <div key={index}>
           <Title>{title}</Title>

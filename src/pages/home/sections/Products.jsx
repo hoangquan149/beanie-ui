@@ -55,7 +55,7 @@ const products = [
 
 const Products = () => {
   return (
-    <div className="mt-4 lg:px-[34px]">
+    <div className="mt-4 px-4 lg:px-[76px]">
       <SliderCommon totalItem={products.length}>
         {products.map((product, index) => (
           <ProductItem product={product} key={index} />

@@ -4,7 +4,7 @@ import BannerImage4 from "../../../images/banner4.png";
 
 const Contact = () => {
   return (
-    <div className="relative flex justify-center px-4 sm:px-0 items-center lg:text-center py-[100px]">
+    <div className="relative flex justify-center px-4 sm:px-0 items-center lg:text-center py-[50px] lg:py-[200px]">
       <img
         src={BannerImage3}
         alt=""

@@ -7,12 +7,20 @@
   padding: 0;
 }
 
+body {
+  background-color: #faf9f8;
+}
+
 @layer base {
   html {
     font-family: "Marcellus", Open-Sans, system-ui, sans-serif;
   }
 }
 
-.menu-mb .active {
-  transform: translateX(100%);
+.menu-mb {
+  @apply transition-all duration-200 ease-in-out;
+}
+
+.menu-mb.active {
+  @apply translate-x-0;
 }

@@ -11,7 +11,7 @@ const Blog = () => {
         <Title>Read Our Blogs</Title>
         <Link title="Read Blog posts" className="hidden lg:block" />
       </div>
-      <div className="grid grid-cols-1 ld:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
         <div className="cursor-pointer">
           <img src={Blog1} className="lg:w-[576px] lg:h-[405px]" alt="" />
           <div className="mt-5">
