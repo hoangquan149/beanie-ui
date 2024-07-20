@@ -17,10 +17,19 @@ body {
   }
 }
 
-.menu-mb {
+.nav-bars {
   @apply transition-all duration-200 ease-in-out;
 }
 
-.menu-mb.active {
+.nav--input:checked ~ .nav-bars {
   @apply translate-x-0;
+}
+
+.nav--overlay {
+  @apply hidden fixed top-0 right-0 bottom-0 left-0 overflow-hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.nav--input:checked ~ .nav--overlay {
+  @apply block z-10 overflow-hidden;
 }
