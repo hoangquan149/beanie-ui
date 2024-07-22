@@ -1,8 +1,8 @@
+import InputSearch from "../components/InputSearch";
 import useGetScrollTop from "../hooks/useGetScrollTop";
 import HeartOutline from "../images/heart-outline.png";
 import Logo from "../images/logo.png";
 import IconSearch from "../images/search.png";
-import Shopping from "../images/shopping.png";
 
 const menuItems = [
   {
@@ -31,7 +31,7 @@ const Navbar = () => {
     <div className="relative">
       <header
         className={`xl:hidden 
-        px-4 py-2 flex items-center justify-between duration-300 transition-all ${
+        px-4 py-2  flex items-center justify-between duration-300 transition-all ${
           isFixed && "fixed  right-0 left-0 top-0 z-10 bg-[#faf9f8] shadow-xl"
         }`}
       >
@@ -61,7 +61,7 @@ const Navbar = () => {
               />
             </div>
             <label htmlFor="nav-mobile-input">
-              <i className="fa-regular fa-xmark text-3xl" />
+              <i className="fa-regular fa-xmark text-3xl " />
             </label>
           </div>
           <div>
@@ -77,8 +77,9 @@ const Navbar = () => {
 
         <img src={Logo} className="w-[60px] xl:w-[80px] object-cover" alt="" />
         <div className="flex items-center gap-6">
-          <div className="flex items-center gap-x-2">
-            <img className="w-6 h-6 aspect-square" src={Shopping} alt="" />
+          <div className="flex items-center gap-x-3">
+            {/* <i className="fa-light fa-magnifying-glass text-2xl"></i> */}
+            <i className="fa-light fa-bag-shopping text-2xl"></i>
           </div>
         </div>
       </header>
@@ -87,28 +88,21 @@ const Navbar = () => {
           <ul className="flex space-x-[50px]">
             {menuItems.map((item, index) => (
               <li className={`uppercase hover:text-yellow `} key={index}>
-                {item?.title}
+                <a href="">{item?.title}</a>
               </li>
             ))}
           </ul>
         </div>
         <img src={Logo} className="w-[160px] object-cover" alt="" />
         <div className="flex items-center justify-end flex-1 gap-[50px] border-b border-t border-primary h-[80px]">
-          <div className="relative">
-            <input
-              className="rounded-[60px] placeholder:text-primary placeholder:italic placeholder:font-light py-2 px-5 border border-[#B4B3B2] outline-none "
-              type="text"
-              placeholder="Search here..."
-            />
-            <img
-              src={IconSearch}
-              className="absolute top-1/2 cursor-pointer -translate-y-1/2 right-4 w-6"
-              alt=""
-            />
-          </div>
-          <img className="w-6 h-6 aspect-square" src={HeartOutline} alt="" />
+          <InputSearch />
+          <img
+            className="w-6 h-6 aspect-square cursor-pointer"
+            src={HeartOutline}
+            alt=""
+          />
           <div className="flex items-center gap-x-1">
-            <img className="w-6 h-6 aspect-square" src={Shopping} alt="" />
+            <i className="fa-light fa-bag-shopping text-2xl"></i>
             <span className="text-lg">(01)</span>
           </div>
         </div>

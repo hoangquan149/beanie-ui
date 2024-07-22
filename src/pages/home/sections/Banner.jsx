@@ -32,11 +32,11 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="relative flex justify-center px-4 sm:px-0 items-center text-center py-[50px] xl:py-[200px]">
+      <div className="relative flex justify-center px-4 sm:px-0 items-center text-center py-[120px] xl:py-[200px]">
         <img
           src={BannerImage3}
           alt=""
-          className="absolute left-0 top-0 hidden xl:block w-[260px]"
+          className="absolute left-0 top-0  xl:block w-[260px]"
         />
         <div className=" md:w-[520px] xl:w-[1164px] font-light text-lg md:text-2xl xl:text-[38px] text-primary md:leading-9 xl:leading-[68px] italic">
           Morbi justo vel diam non leo elementum massa. Molestie ipsum
@@ -46,7 +46,7 @@ const Banner = () => {
         <img
           src={BannerImage4}
           alt=""
-          className="absolute right-0 top-[50px] md:top-[80px] xl:top-[120px] xl:top-[150px] hidden xl:block w-[260px]"
+          className="absolute right-0 top-[50px] md:top-[80px] xl:top-[150px]  xl:block w-[260px]"
         />
       </div>
     </div>
