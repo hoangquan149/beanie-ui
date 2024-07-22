@@ -1,7 +1,5 @@
 /* eslint-disable react/prop-types */
 
-import Link from "../Link";
-
 // eslint-disable-next-line react/prop-types
 const CategoryItem = ({ category }) => {
   return (
